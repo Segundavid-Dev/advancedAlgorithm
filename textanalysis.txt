@@ -1,0 +1,4 @@
+Although the main tasks all collaborate in the text analysis program, they can be
+tested more or less independently, before the entire program is tested. After all,
+there is no point in running the complete program if you are unsure that even
+one of the tasks does not work correctly.

@@ -1,0 +1,19 @@
+*Case Study: Text Analysis*
+
+In 1949, Dr. Rudolf Flesch published The Art of Readable Writing, in which he
+proposed a measure of text readability known as the Flesch Index. This index is
+based on the average number of syllables per word and the average number of
+words per sentence in a piece of text. Index scores usually range from 0 to 100,
+and indicate readable prose for the following grade levels:
+
+FLESCH INDEX ||  GRADE LEVEL OF READABILITY
+0–30     ||      College
+50–60    ||      High School
+90–100   ||      Fourth Grade
+
+*Request* 
+Write a program that computes the Flesch Index and grade level for text stored
+in a text file.
+
+*Flesch’s formula to calculate the index F is the following*
+F = 206.835 – 1.015 x (words / sentences) – 84.6 x (syllables / words)
